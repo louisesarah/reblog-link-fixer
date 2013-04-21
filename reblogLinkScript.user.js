@@ -29,7 +29,7 @@ var UW = (function(){
 
 function controlOption($button){
 	UW.jQuery(".item", $button).each(function(i,y){
-		UW.jQuery(y).append(UW.jQuery(image_controls));
+		UW.jQuery(y).append(UW.jQuery(controlDivs));
 	});
 }
 
