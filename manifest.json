@@ -1,0 +1,10 @@
+{
+     "name": "Reblog Link Option for Tumblr",
+     "version": "1",
+     "manifest_version": 2,
+     "browser_action": {
+        "default_icon": "link_disabled.png",
+        "default_title": "icon"
+        },
+     "background": {"scripts": ["background.js"] }
+}
