@@ -6,5 +6,9 @@
         "default_icon": "link_disabled.png",
         "default_title": "icon"
         },
-     "background": {"scripts": ["background.js"] }
+     "background": {"scripts": ["background.js"] },
+     "permissions": [
+        "tabs",
+        "http://www.tumblr.com/*"
+     ]
 }
