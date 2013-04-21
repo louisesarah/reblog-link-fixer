@@ -48,9 +48,13 @@ UW.Tumblr.PostForms.BaseView.prototype.show_post_form = function(post_type){
 		
 		// check inner class="controls" size (exists or not)
 		// if it already exists (user-uploaded photo keeps controls option), return
-		if (UW.jQuery(".controls", "#post_form .photos").size()>0){ return; }
-		else { controlOption($photos); }
-		};
+		if (UW.jQuery(".controls", "#post_form .photos").size()>0){
+			return;
+		}
+		else { 
+			controlOption($photos);
+		}
 	};
+};
 
 })();
