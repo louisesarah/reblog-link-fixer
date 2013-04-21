@@ -28,7 +28,9 @@ var UW = (function(){
     })();
 
 function controlOption($button){
-// TO FILL
+	UW.jQuery(".item", $button).each(function(i,y){
+		UW.jQuery(y).append(UW.jQuery(image_controls));
+	});
 }
 
 // check post_type when show_post_form occurs (the edit window)
