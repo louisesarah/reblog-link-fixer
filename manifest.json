@@ -2,6 +2,7 @@
      "name": "Reblog Link Option for Tumblr",
      "version": "1",
      "manifest_version": 2,
+     "icons": { "48": "link_icon48.png" },
      "browser_action": {
         "default_icon": "link_disabled.png",
         "default_title": "icon"
